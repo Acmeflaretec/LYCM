@@ -47,7 +47,9 @@ ol {
   color: #848484;
   font-family: "Open Sans", Arial, sans-serif;
 }
-
+p {
+  text-align: left;
+}
 h1,
 h2,
 h3,
@@ -581,7 +583,7 @@ figure {
   width: 100px;
   margin-left: -50px;
   height: 2px;
-  background: #ff5722;
+  /* background: #ff5722; */
 }
 .heading-section h3 {
   font-size: 40px;
@@ -1530,7 +1532,6 @@ figure {
   width: 100px;
 }
 
-
 /*** Carousel Start ***/
 
 .carousel-item {
@@ -1664,7 +1665,8 @@ figure {
     font-size: 25px !important;
   }
 
-  .carousel-item p ,.carousel-item h3{
+  .carousel-item p,
+  .carousel-item h3 {
     font-size: 16px !important;
   }
 }
@@ -1712,3 +1714,19 @@ figure {
 }
 
 /*** Carousel End ***/
+
+@media screen and (max-width: 768px) {
+  .voluntary-second-section {
+    margin-top: -50px;
+  }
+}
+
+.sponser-icon img {
+  height: auto;
+  width: auto;
+}
+
+  .account-details {
+    margin-top: -100px;
+  }
+
