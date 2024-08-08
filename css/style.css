@@ -1726,7 +1726,10 @@ figure {
   width: auto;
 }
 
-  .account-details {
-    margin-top: -100px;
-  }
+.account-details {
+  margin-top: -100px;
+}
 
+.feature-text-lc {
+  padding-left: 50px;
+}
