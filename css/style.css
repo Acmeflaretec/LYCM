@@ -1719,7 +1719,10 @@ figure {
   .voluntary-second-section {
     margin-top: -50px;
   }
-
+  .contact-map {
+    margin-top: 50px;
+    margin-bottom:-40px
+  }
 }
 
 .sponser-icon img {
