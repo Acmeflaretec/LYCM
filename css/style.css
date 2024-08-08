@@ -841,7 +841,7 @@ figure {
   padding: 4em 0;
 }
 #fh5co-features .feature-left {
-  margin-bottom: 0;
+  margin-bottom: 25px;
 }
 @media screen and (max-width: 992px) {
   #fh5co-features .feature-left {
@@ -1719,6 +1719,7 @@ figure {
   .voluntary-second-section {
     margin-top: -50px;
   }
+
 }
 
 .sponser-icon img {
